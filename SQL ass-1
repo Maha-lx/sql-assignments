@@ -1,0 +1,11 @@
+CREATE DATABASE Employor;
+SHOW DATABASES;
+USE Employor;
+CREATE TABLE Employee (
+    Empid INT,
+    Empname VARCHAR(100),
+    Salary DECIMAL(10,2),
+    Department VARCHAR(50)
+);
+SHOW TABLES;
+DESC Employee;
