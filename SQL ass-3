@@ -1,0 +1,14 @@
+CREATE TABLE college (
+    college_id INT PRIMARY KEY,
+    college_name VARCHAR(50) NOT NULL,
+    std_rollno INT NOT NULL,
+    std_name VARCHAR(50) NOT NULL
+);
+
+INSERT INTO college (college_id, college_name, std_rollno, std_name) 
+VALUES 
+(101, 'AMS', 1, 'shan'),
+(102, 'VEC', 2, 'kavi'),
+(103, 'rec', 3, 'zein');
+DESC college;
+SELECT * FROM college;
